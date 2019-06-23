@@ -5,8 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hotel&Travel</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link of CDN Css Bootstarp4  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="#" class="navbar-brand" >Hotel&Travel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collpase" data-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Hotels</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link">Book Now</a>
+                    </li>
+                </ul>
+        </div>
+    </nav>
+    <header class="myContainer bg-img">
+        <form action="#" class="searchHotel">
+            <h1 class="title"><span class="m-4">Search Hotels</span>
+                </h1>
+             <div class="row pForInput">
+                 <div class="col-lg-6">
+                    <label>Check In</label>
+                    <input type="date" name="CheckIn" max="2019-6-23">
+                 </div>
+                 <div class="col-lg-6">
+                    <label>Check Out</label>
+                    <input type="date" name="CheckIn" max="2019-6-23">
+                 </div>
+                 <div class="col-lg-6">
+                    <label>Adults</label>
+                    <input type="number" name="Adults" placeholder="00">
+                 </div>
+                 <div class="col-lg-6">
+                    <label>Kids</label>
+                    <input type="number" name="Kids" placeholder="00">
+                 </div>
+                <button class="btn btn-success btn-block">
+                        Search Hotels
+                </button>
+             </div>
+            
+
+        </form>
+    </header>
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Links of CDN Javascript BOOTSTARP4 -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,46 @@
+/* links of google fonts  */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* Header  section */
+.myContainer{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.title{
+    font-family: 'Open Sans', sans-serif;
+    /* color: #53d397 !important; */
+    background-color: black;
+    color:#fff !important;
+    
+}
+.bg-img{
+    background-image: url(/Hotel&Travel/img/header.jpg);
+    height: 84vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* Search Hotel Form  */
+.myContainer input[type=number],input[type=date]{
+    width: 100%;
+    padding:10px;
+    margin: 5px 0 22px 0;
+    border: 1px solid green;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+.searchHotel{
+    position: absolute;
+    left: 0;
+    margin: 16rem 0px 4rem 2rem;
+    background-color: #fff;
+    width: 800px;
+  
+}
+.pForInput{
+    padding: 20px;
+}
+/* section two ROOMS */
