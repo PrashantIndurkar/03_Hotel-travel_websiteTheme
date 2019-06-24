@@ -13,6 +13,7 @@ body{
     /* color: #53d397 !important; */
     background-color: black;
     color:#fff !important;
+    padding-bottom: 1.7rem;
     
 }
 .bg-img{
@@ -46,3 +47,27 @@ body{
     padding: 20px;
 }
 /* section two ROOMS */
+/* section About */
+.img-map{
+    background: url(/Hotel&Travel/img/map.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+/* newsletter */
+.newsletter{
+    background-color: #000000;
+    height: 30vh;
+    color: #fff;
+}
+.newsletter input[type=email]{
+    padding:10px;
+    margin: 5px 0 22px 0;
+    border: 1px solid green;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    border-radius: 4px;
+    width: 100%;
+}
