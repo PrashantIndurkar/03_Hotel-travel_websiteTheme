@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hotel&Travel</title>
+    <title>Satisfy | Home</title>
     <link rel="stylesheet" href="style.css">
     <!-- link of CDN Css Bootstarp4  ===============================================-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c405ff10c6.js"></script>
 </head>
 <body>
     <!-- navbar =========================================================== -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="#" class="navbar-brand" >Hotel&Travel</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a href="#" class="navbar-brand">Satisfy</a>
         <button class="navbar-toggler" type="button" data-toggle="collpase" data-target="#navbarContent">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,35 +32,35 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
-                        <a href="#" class="nav-link">Book Now</a>
+                        <a href="#" class="nav-link btn btn-success text-white">Book Now </a>
                     </li>
                 </ul>
         </div>
     </nav>
     <!-- FORM ======================================================================== -->
     <header class="myContainer bg-img">
-        <form action="#" class="searchHotel ">
-            <h1 class="title"><span class="m-5">Search Hotels</span>
+        <form action="#" class="searchHotel">
+            <h1 class="title "><span class="m-5">Search Hotels</span>
                 </h1>
              <div class="row pForInput">
                  <div class="col-lg-6">
-                    <label>Check In</label>
+                    <label> <i class="far fa-calendar-check"></i> Check In</label>
                     <input type="date" name="CheckIn" max="2019-6-23">
                  </div>
                  <div class="col-lg-6">
-                    <label>Check Out</label>
+                    <label><i class="far fa-calendar-alt"></i> Check Out</label>
                     <input type="date" name="CheckIn" max="2019-6-23">
                  </div>
                  <div class="col-lg-6">
-                    <label>Adults</label>
+                    <label><i class="fas fa-male"></i> Adults</label>
                     <input type="number" name="Adults" placeholder="00">
                  </div>
                  <div class="col-lg-6">
-                    <label>Kids</label>
+                    <label><i class="fas fa-child"></i> Kids</label>
                     <input type="number" name="Kids" placeholder="00">
                  </div>
                  <div class="col">
-                        <label >SearchHotel</label>
+                        <label><i class="fas fa-search-location"></i> SearchHotel</label>
                         <input type="submit" placeholder="Search hotel" class="btn btn-success btn-block">
                  </div>
              </div>
@@ -70,30 +72,30 @@
         <p class="mt-3">Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
         <div class="row mt-4">
             <div class="col-3">
-                <label>Check In</label>
+                <label><i class="far fa-calendar-check"></i> Check In</label>
                 <input type="date" name="CheckIn" max="2019-6-23"></div>
             <div class="col-3"> 
-                <label>Check In</label>
+                <label> <i class="far fa-calendar-alt"></i> Check In</label>
                 <input type="date" name="CheckIn" max="2019-6-23"></div>
             <div class="col-2">
-                <label>Adults</label>
+                <label><i class="fas fa-male"></i> Adults</label>
                 <input type="number" name="Adults" placeholder="00">
             </div>
             <div class="col-2">
-                <label>Kids</label>
+                <label><i class="fas fa-child"></i> Kids</label>
                 <input type="number" name="Kids" placeholder="00">
             </div>
             <div class="col-2">
-                <label >Search Hotels</label>
+                <label><i class="fas fa-search-location"></i> Search Hotels</label>
             <input type="submit" placeholder="Search hotel" class="btn btn-success btn-block">
             </div>
         </div>
     </section>
 
     <!-- ROOM SECTION PART-|| ============================================================== -->
-    <section class="myContainer mt-3">
-        <div class="row">
-            <div class="col-4">
+    <section class="myContainer mt-3 ">
+        <div class="row room">
+            <div class="col-4 shadows ">
                 <div class="card" style="width:33rem;">
                 <img src="/Hotel&Travel/img/hotel1.jpg" class="card-img-top" alt="">
                 </div>
@@ -102,10 +104,11 @@
                     <p>Starts From - $100</p>
                     <p>Signal Room</p>
                     <p>15m2</p>
+                    <p><i class="fas fa-wifi"></i> <i class="fas fa-bath"></i> <i class="fas fa-phone-volume"></i></p>
                     <a href="" class="btn btn-success btn-block">Choose Room</a>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 shadows">
                 <div class="card" style="width:33rem;">
                         <img src="/Hotel&Travel/img/hotel2.jpg" class="card-img-top" alt="">
                 </div>
@@ -114,10 +117,11 @@
                     <p>Starts From - $100</p>
                     <p>Double Room</p>
                     <p>25m2</p>
+                    <p><i class="fas fa-wifi"></i> <i class="fas fa-bath"></i> <i class="fas fa-phone-volume"></i>  <i class="fas fa-tv"></i></p>
                     <a href="" class="btn btn-success btn-block">Choose Room</a>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 shadows">
                 <div class="card" style="width:33rem;">
                     <img src="/Hotel&Travel/img/hotel3.jpg" class="card-img-top" alt="">
                 </div>
@@ -126,6 +130,7 @@
                     <p>Starts From - $100</p>
                     <p>Deulxe Room</p>
                     <p>35m2</p>
+                    <p><i class="fas fa-wifi"></i> <i class="fas fa-bath"></i> <i class="fas fa-phone-volume"></i>  <i class="fas fa-tv"></i> <i class="fas fa-utensils"></i></p>
                     <a href="" class="btn btn-success btn-block">Choose Room</a>
                 </div>
         </div>
@@ -133,26 +138,27 @@
 
     <!-- ABOUT SECTION ===================================================================== -->
     <section class="myContainer mt-5">
-        <div class="row">
+        <div class="row about">
             <div class="col-4">
-                <h2 class="">About</h2>
+                <h2 class="mt-5" >About</h2>
                 <p>
                         Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                 </p>
                 <p>We accept</p>
+                <p><i class="fab fa-cc-mastercard"></i> <i class="fab fa-cc-visa"></i> <i class="fab fa-cc-stripe"></i> <i class="fab fa-cc-paypal"></i>  <i class="fab fa-cc-discover"></i>  <i class="fab fa-cc-amex"></i></p>
             </div>
-            <div class="col-8 img-map">
+            <div class="col-8 img-map shadows mt-5">
                 
             </div>
         </div>
     </section>
 
 <!-- OUR HOTEL SECTION ========================================================================== -->
-    <section class="myContainer">
-            <h2>Our hotels</h2>
+    <section class="myContainer ourHotels">
+            <h2 class="mt-5"> Our Hotels <i class="fas fa-hospital-alt"></i></h2>
             <p class="mt-3">You can find our hotels anywhere in the world:</p>
-        <div class="row">
-            <div class="col-6">
+        <div class="row mt-4 ">
+            <div class="col-6 ">
                 <img src="/Hotel&Travel/img/c2.jpg" style="width: 100%">
             </div> 
             <div class="col-6">
@@ -188,12 +194,13 @@
         </div>
         
     </section >
+    <!-- contact ====================================================================== -->
  <section class="contact myContainer mt-5">
     <h1>Contact</h1>
     <p>If you have any questions, do not hesitate to ask them.</p>
-    <p> Chicago, US</p>
-    <p>Phone: +00 151515</p>
-    <p> Email: mail@mail.com</p>
+    <p><i class="fas fa-map-marker-alt"></i> NYC, US</p>
+    <p><i class="fas fa-phone-volume"></i> Phone: +01 50155018</p>
+    <p><i class="fas fa-envelope"></i> Email: gmail@gmail.com</p>
 <form>
     <div class="form-group">
         <input class="form-control" type="Name" name="Name" placeholder="Name">
@@ -205,10 +212,31 @@
         <textarea class="form-control" type="text" placeholder="Message" ></textarea>
     </div>
     <div class="form-group">
-        <a href="#" class="btn btn-success">SEND MESSAGE</a>
+        <a href="#" class="btn btn-success shadows">SEND MESSAGE</a>
     </div>
 </form>
  </section>
+
+ <!-- footer ========================================================================-->
+ <footer class="footer mt-5">
+   
+    <div class="text-center">
+            <h4 class="pt-5">Find Us On</h4>
+            <div class="pt-2">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+                <a href=""><i class="fab fa-slack"></i></a>
+                <a href=""><i class="fab fa-pinterest"></i></a>
+                <a href=""><i class="fab fa-snapchat"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+            
+    </div>
+            <p class="mt-3 text-center"> &copy; 2019 "OPEN SOURCE PROJECT"</p>
+            <h5 class="text-center mt-0">Developer - Prashant indurkar</h5>
+ </footer>
 
 
 
